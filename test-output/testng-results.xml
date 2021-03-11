@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-24T05:29:18Z" name="MasterSuite" finished-at="2021-02-24T05:30:04Z" duration-ms="45881">
+    <groups>
+    </groups>
+    <test started-at="2021-02-24T05:29:18Z" name="ALLTests" finished-at="2021-02-24T05:30:04Z" duration-ms="45881">
+      <class name="pageObjectTests.PlaylistTest">
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:18Z" name="startUp" finished-at="2021-02-23T21:29:23Z" duration-ms="4795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_createPlayList_playListCreated()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:23Z" name="playListTests_createPlayList_playListCreated" finished-at="2021-02-23T21:29:28Z" duration-ms="5153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_createPlayList_playListCreated -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:28Z" name="tearDown" finished-at="2021-02-23T21:29:31Z" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:31Z" name="startUp" finished-at="2021-02-23T21:29:32Z" duration-ms="462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_renamePlaylist_playListRenamed()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:32Z" name="playListTests_renamePlaylist_playListRenamed" finished-at="2021-02-23T21:29:35Z" duration-ms="3528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_renamePlaylist_playListRenamed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:35Z" name="tearDown" finished-at="2021-02-23T21:29:38Z" duration-ms="3065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:38Z" name="startUp" finished-at="2021-02-23T21:29:39Z" duration-ms="375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_createPlayList_playListCreated1()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:39Z" name="playListTests_createPlayList_playListCreated1" finished-at="2021-02-23T21:29:42Z" duration-ms="3307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_createPlayList_playListCreated1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:42Z" name="tearDown" finished-at="2021-02-23T21:29:45Z" duration-ms="3059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:45Z" name="startUp" finished-at="2021-02-23T21:29:45Z" duration-ms="300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_renamePlaylist_playListRenamed1()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:45Z" name="playListTests_renamePlaylist_playListRenamed1" finished-at="2021-02-23T21:29:48Z" duration-ms="3021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_renamePlaylist_playListRenamed1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:48Z" name="tearDown" finished-at="2021-02-23T21:29:51Z" duration-ms="3063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:51Z" name="startUp" finished-at="2021-02-23T21:29:52Z" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_createPlayList_playListCreated2()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:52Z" name="playListTests_createPlayList_playListCreated2" finished-at="2021-02-23T21:29:54Z" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_createPlayList_playListCreated2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:54Z" name="tearDown" finished-at="2021-02-23T21:29:57Z" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:57Z" name="startUp" finished-at="2021-02-23T21:29:58Z" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_renamePlaylist_playListRenamed2()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:29:58Z" name="playListTests_renamePlaylist_playListRenamed2" finished-at="2021-02-23T21:30:01Z" duration-ms="2968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_renamePlaylist_playListRenamed2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTest@46daef40]" started-at="2021-02-23T21:30:01Z" name="tearDown" finished-at="2021-02-23T21:30:04Z" duration-ms="3062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageObjectTests.PlaylistTest -->
+      <class name="pageObjectTests.PlaylistTestA">
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:18Z" name="startUp" finished-at="2021-02-23T21:29:23Z" duration-ms="4795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_createPlayList_playListCreatedA()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:23Z" name="playListTests_createPlayList_playListCreatedA" finished-at="2021-02-23T21:29:28Z" duration-ms="5082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_createPlayList_playListCreatedA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:28Z" name="tearDown" finished-at="2021-02-23T21:29:31Z" duration-ms="3069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:31Z" name="startUp" finished-at="2021-02-23T21:29:32Z" duration-ms="541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_renamePlaylist_playListRenamedA()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:32Z" name="playListTests_renamePlaylist_playListRenamedA" finished-at="2021-02-23T21:29:35Z" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_renamePlaylist_playListRenamedA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:35Z" name="tearDown" finished-at="2021-02-23T21:29:38Z" duration-ms="3072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:38Z" name="startUp" finished-at="2021-02-23T21:29:39Z" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_createPlayList_playListCreated1A()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:39Z" name="playListTests_createPlayList_playListCreated1A" finished-at="2021-02-23T21:29:42Z" duration-ms="3389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_createPlayList_playListCreated1A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:42Z" name="tearDown" finished-at="2021-02-23T21:29:45Z" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:45Z" name="startUp" finished-at="2021-02-23T21:29:45Z" duration-ms="338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_renamePlaylist_playListRenamed1A()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:45Z" name="playListTests_renamePlaylist_playListRenamed1A" finished-at="2021-02-23T21:29:48Z" duration-ms="3164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_renamePlaylist_playListRenamed1A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:48Z" name="tearDown" finished-at="2021-02-23T21:29:52Z" duration-ms="3063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:52Z" name="startUp" finished-at="2021-02-23T21:29:52Z" duration-ms="285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_createPlayList_playListCreated2A()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:52Z" name="playListTests_createPlayList_playListCreated2A" finished-at="2021-02-23T21:29:55Z" duration-ms="2759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_createPlayList_playListCreated2A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:55Z" name="tearDown" finished-at="2021-02-23T21:29:58Z" duration-ms="3065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:58Z" name="startUp" finished-at="2021-02-23T21:29:58Z" duration-ms="270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="playListTests_renamePlaylist_playListRenamed2A()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:29:58Z" name="playListTests_renamePlaylist_playListRenamed2A" finished-at="2021-02-23T21:30:01Z" duration-ms="2998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playListTests_renamePlaylist_playListRenamed2A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.PlaylistTestA@12f41634]" started-at="2021-02-23T21:30:01Z" name="tearDown" finished-at="2021-02-23T21:30:04Z" duration-ms="3066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageObjectTests.PlaylistTestA -->
+      <class name="pageObjectTests.LoginTestA">
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:18Z" name="startUp" finished-at="2021-02-23T21:29:23Z" duration-ms="4795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_WrongCredentials_redFrameA()[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:23Z" name="loginTest_WrongCredentials_redFrameA" finished-at="2021-02-23T21:29:25Z" duration-ms="2264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_WrongCredentials_redFrameA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:25Z" name="tearDown" finished-at="2021-02-23T21:29:28Z" duration-ms="3068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:28Z" name="startUp" finished-at="2021-02-23T21:29:29Z" duration-ms="374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_successfulLogin1A()[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:29Z" name="loginTest_CorrectCredentials_successfulLogin1A" finished-at="2021-02-23T21:29:32Z" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_successfulLogin1A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:32Z" name="tearDown" finished-at="2021-02-23T21:29:35Z" duration-ms="3066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:35Z" name="startUp" finished-at="2021-02-23T21:29:35Z" duration-ms="479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_WrongCredentials_redFrame1A()[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:35Z" name="loginTest_WrongCredentials_redFrame1A" finished-at="2021-02-23T21:29:36Z" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_WrongCredentials_redFrame1A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:36Z" name="tearDown" finished-at="2021-02-23T21:29:39Z" duration-ms="3060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:39Z" name="startUp" finished-at="2021-02-23T21:29:40Z" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_successfulLogin2A()[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:40Z" name="loginTest_CorrectCredentials_successfulLogin2A" finished-at="2021-02-23T21:29:43Z" duration-ms="3545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_successfulLogin2A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:43Z" name="tearDown" finished-at="2021-02-23T21:29:46Z" duration-ms="3064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:46Z" name="startUp" finished-at="2021-02-23T21:29:47Z" duration-ms="387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_WrongCredentials_redFrame2A()[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:47Z" name="loginTest_WrongCredentials_redFrame2A" finished-at="2021-02-23T21:29:48Z" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_WrongCredentials_redFrame2A -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.LoginTestA@7b69c6ba]" started-at="2021-02-23T21:29:48Z" name="tearDown" finished-at="2021-02-23T21:29:51Z" duration-ms="3060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageObjectTests.LoginTestA -->
+      <class name="pageObjectTests.LoginTest">
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:18Z" name="startUp" finished-at="2021-02-23T21:29:23Z" duration-ms="4795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_successfulLogin1()[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:23Z" name="loginTest_CorrectCredentials_successfulLogin1" finished-at="2021-02-23T21:29:28Z" duration-ms="5086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_successfulLogin1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:28Z" name="tearDown" finished-at="2021-02-23T21:29:31Z" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:31Z" name="startUp" finished-at="2021-02-23T21:29:32Z" duration-ms="505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_WrongCredentials_redFrame1()[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:32Z" name="loginTest_WrongCredentials_redFrame1" finished-at="2021-02-23T21:29:33Z" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_WrongCredentials_redFrame1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:33Z" name="tearDown" finished-at="2021-02-23T21:29:36Z" duration-ms="3063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:36Z" name="startUp" finished-at="2021-02-23T21:29:36Z" duration-ms="286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_CorrectCredentials_successfulLogin2()[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:36Z" name="loginTest_CorrectCredentials_successfulLogin2" finished-at="2021-02-23T21:29:39Z" duration-ms="2722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_CorrectCredentials_successfulLogin2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:39Z" name="tearDown" finished-at="2021-02-23T21:29:42Z" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:42Z" name="startUp" finished-at="2021-02-23T21:29:42Z" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koeluser06@testpro.io]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[te$t$tudent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginTest_WrongCredentials_redFrame2()[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:42Z" name="loginTest_WrongCredentials_redFrame2" finished-at="2021-02-23T21:29:44Z" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_WrongCredentials_redFrame2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pageObjectTests.LoginTest@44c8afef]" started-at="2021-02-23T21:29:44Z" name="tearDown" finished-at="2021-02-23T21:29:47Z" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pageObjectTests.LoginTest -->
+    </test> <!-- ALLTests -->
+  </suite> <!-- MasterSuite -->
+</testng-results>

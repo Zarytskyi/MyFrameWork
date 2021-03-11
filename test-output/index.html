@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MasterSuite" class="navigator-link">
+              <span class="suite-name border-passed">MasterSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MasterSuite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MasterSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MasterSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MasterSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MasterSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MasterSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MasterSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MasterSuite" class="hide-methods passed suite-MasterSuite"> (hide)</a> <!-- hide-methods passed suite-MasterSuite -->
+                      <a href="#" panel-name="suite-MasterSuite" class="show-methods passed suite-MasterSuite"> (show)</a> <!-- show-methods passed suite-MasterSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-MasterSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.LoginTest" class="method navigator-link" hash-for-method="loginTest_CorrectCredentials_successfulLogin1">loginTest_CorrectCredentials_successfulLogin1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.LoginTestA" class="method navigator-link" hash-for-method="loginTest_CorrectCredentials_successfulLogin1A">loginTest_CorrectCredentials_successfulLogin1A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.LoginTest" class="method navigator-link" hash-for-method="loginTest_CorrectCredentials_successfulLogin2">loginTest_CorrectCredentials_successfulLogin2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.LoginTestA" class="method navigator-link" hash-for-method="loginTest_CorrectCredentials_successfulLogin2A">loginTest_CorrectCredentials_successfulLogin2A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.LoginTest" class="method navigator-link" hash-for-method="loginTest_WrongCredentials_redFrame1">loginTest_WrongCredentials_redFrame1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.LoginTestA" class="method navigator-link" hash-for-method="loginTest_WrongCredentials_redFrame1A">loginTest_WrongCredentials_redFrame1A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.LoginTest" class="method navigator-link" hash-for-method="loginTest_WrongCredentials_redFrame2">loginTest_WrongCredentials_redFrame2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.LoginTestA" class="method navigator-link" hash-for-method="loginTest_WrongCredentials_redFrame2A">loginTest_WrongCredentials_redFrame2A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.LoginTestA" class="method navigator-link" hash-for-method="loginTest_WrongCredentials_redFrameA">loginTest_WrongCredentials_redFrameA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTest" class="method navigator-link" hash-for-method="playListTests_createPlayList_playListCreated">playListTests_createPlayList_playListCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTest" class="method navigator-link" hash-for-method="playListTests_createPlayList_playListCreated1">playListTests_createPlayList_playListCreated1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTestA" class="method navigator-link" hash-for-method="playListTests_createPlayList_playListCreated1A">playListTests_createPlayList_playListCreated1A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTest" class="method navigator-link" hash-for-method="playListTests_createPlayList_playListCreated2">playListTests_createPlayList_playListCreated2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTestA" class="method navigator-link" hash-for-method="playListTests_createPlayList_playListCreated2A">playListTests_createPlayList_playListCreated2A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTestA" class="method navigator-link" hash-for-method="playListTests_createPlayList_playListCreatedA">playListTests_createPlayList_playListCreatedA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTest" class="method navigator-link" hash-for-method="playListTests_renamePlaylist_playListRenamed">playListTests_renamePlaylist_playListRenamed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTest" class="method navigator-link" hash-for-method="playListTests_renamePlaylist_playListRenamed1">playListTests_renamePlaylist_playListRenamed1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTestA" class="method navigator-link" hash-for-method="playListTests_renamePlaylist_playListRenamed1A">playListTests_renamePlaylist_playListRenamed1A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTest" class="method navigator-link" hash-for-method="playListTests_renamePlaylist_playListRenamed2">playListTests_renamePlaylist_playListRenamed2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTestA" class="method navigator-link" hash-for-method="playListTests_renamePlaylist_playListRenamed2A">playListTests_renamePlaylist_playListRenamed2A</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MasterSuite" title="pageObjectTests.PlaylistTestA" class="method navigator-link" hash-for-method="playListTests_renamePlaylist_playListRenamedA">playListTests_renamePlaylist_playListRenamedA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MasterSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MasterSuite" class="panel MasterSuite">
+          <div class="suite-MasterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pageObjectTests.LoginTestA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest_CorrectCredentials_successfulLogin1A">
+                  </a> <!-- loginTest_CorrectCredentials_successfulLogin1A -->
+                  <span class="method-name">loginTest_CorrectCredentials_successfulLogin1A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest_CorrectCredentials_successfulLogin2A">
+                  </a> <!-- loginTest_CorrectCredentials_successfulLogin2A -->
+                  <span class="method-name">loginTest_CorrectCredentials_successfulLogin2A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest_WrongCredentials_redFrame1A">
+                  </a> <!-- loginTest_WrongCredentials_redFrame1A -->
+                  <span class="method-name">loginTest_WrongCredentials_redFrame1A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest_WrongCredentials_redFrame2A">
+                  </a> <!-- loginTest_WrongCredentials_redFrame2A -->
+                  <span class="method-name">loginTest_WrongCredentials_redFrame2A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest_WrongCredentials_redFrameA">
+                  </a> <!-- loginTest_WrongCredentials_redFrameA -->
+                  <span class="method-name">loginTest_WrongCredentials_redFrameA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MasterSuite-class-passed -->
+          <div class="suite-MasterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pageObjectTests.PlaylistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_createPlayList_playListCreated">
+                  </a> <!-- playListTests_createPlayList_playListCreated -->
+                  <span class="method-name">playListTests_createPlayList_playListCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_createPlayList_playListCreated1">
+                  </a> <!-- playListTests_createPlayList_playListCreated1 -->
+                  <span class="method-name">playListTests_createPlayList_playListCreated1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_createPlayList_playListCreated2">
+                  </a> <!-- playListTests_createPlayList_playListCreated2 -->
+                  <span class="method-name">playListTests_createPlayList_playListCreated2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_renamePlaylist_playListRenamed">
+                  </a> <!-- playListTests_renamePlaylist_playListRenamed -->
+                  <span class="method-name">playListTests_renamePlaylist_playListRenamed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_renamePlaylist_playListRenamed1">
+                  </a> <!-- playListTests_renamePlaylist_playListRenamed1 -->
+                  <span class="method-name">playListTests_renamePlaylist_playListRenamed1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_renamePlaylist_playListRenamed2">
+                  </a> <!-- playListTests_renamePlaylist_playListRenamed2 -->
+                  <span class="method-name">playListTests_renamePlaylist_playListRenamed2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MasterSuite-class-passed -->
+          <div class="suite-MasterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pageObjectTests.PlaylistTestA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_createPlayList_playListCreated1A">
+                  </a> <!-- playListTests_createPlayList_playListCreated1A -->
+                  <span class="method-name">playListTests_createPlayList_playListCreated1A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_createPlayList_playListCreated2A">
+                  </a> <!-- playListTests_createPlayList_playListCreated2A -->
+                  <span class="method-name">playListTests_createPlayList_playListCreated2A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_createPlayList_playListCreatedA">
+                  </a> <!-- playListTests_createPlayList_playListCreatedA -->
+                  <span class="method-name">playListTests_createPlayList_playListCreatedA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_renamePlaylist_playListRenamed1A">
+                  </a> <!-- playListTests_renamePlaylist_playListRenamed1A -->
+                  <span class="method-name">playListTests_renamePlaylist_playListRenamed1A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_renamePlaylist_playListRenamed2A">
+                  </a> <!-- playListTests_renamePlaylist_playListRenamed2A -->
+                  <span class="method-name">playListTests_renamePlaylist_playListRenamed2A</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playListTests_renamePlaylist_playListRenamedA">
+                  </a> <!-- playListTests_renamePlaylist_playListRenamedA -->
+                  <span class="method-name">playListTests_renamePlaylist_playListRenamedA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MasterSuite-class-passed -->
+          <div class="suite-MasterSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pageObjectTests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest_CorrectCredentials_successfulLogin1">
+                  </a> <!-- loginTest_CorrectCredentials_successfulLogin1 -->
+                  <span class="method-name">loginTest_CorrectCredentials_successfulLogin1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest_CorrectCredentials_successfulLogin2">
+                  </a> <!-- loginTest_CorrectCredentials_successfulLogin2 -->
+                  <span class="method-name">loginTest_CorrectCredentials_successfulLogin2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest_WrongCredentials_redFrame1">
+                  </a> <!-- loginTest_WrongCredentials_redFrame1 -->
+                  <span class="method-name">loginTest_WrongCredentials_redFrame1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest_WrongCredentials_redFrame2">
+                  </a> <!-- loginTest_WrongCredentials_redFrame2 -->
+                  <span class="method-name">loginTest_WrongCredentials_redFrame2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MasterSuite-class-passed -->
+        </div> <!-- panel MasterSuite -->
+        <div panel-name="test-xml-MasterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/zarytskyi/Desktop/Java course/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;MasterSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;wrongPassword&quot; value=&quot;wrongPassword&quot;/&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;te$t$tudent&quot;/&gt;
+  &lt;parameter name=&quot;email&quot; value=&quot;koeluser06@testpro.io&quot;/&gt;
+  &lt;test name=&quot;ALLTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pageObjectTests.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginTest_WrongCredentials_redFrame&quot;/&gt;
+          &lt;include name=&quot;loginTest_CorrectCredentials_successfulLogin1&quot;/&gt;
+          &lt;include name=&quot;loginTest_WrongCredentials_redFrame1&quot;/&gt;
+          &lt;include name=&quot;loginTest_CorrectCredentials_successfulLogin2&quot;/&gt;
+          &lt;include name=&quot;loginTest_WrongCredentials_redFrame2&quot;/&gt;
+          &lt;exclude name=&quot;loginTest_CorrectCredentials_successfulLogin&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- pageObjectTests.LoginTest --&gt;
+      &lt;class name=&quot;pageObjectTests.LoginTestA&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginTest_WrongCredentials_redFrameA&quot;/&gt;
+          &lt;include name=&quot;loginTest_CorrectCredentials_successfulLogin1A&quot;/&gt;
+          &lt;include name=&quot;loginTest_WrongCredentials_redFrame1A&quot;/&gt;
+          &lt;include name=&quot;loginTest_CorrectCredentials_successfulLogin2A&quot;/&gt;
+          &lt;include name=&quot;loginTest_WrongCredentials_redFrame2A&quot;/&gt;
+          &lt;exclude name=&quot;loginTest_CorrectCredentials_successfulLoginA&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- pageObjectTests.LoginTestA --&gt;
+      &lt;class name=&quot;pageObjectTests.PlaylistTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;playListTests_createPlayList_playListCreated&quot;/&gt;
+          &lt;include name=&quot;playListTests_renamePlaylist_playListRenamed&quot;/&gt;
+          &lt;include name=&quot;playListTests_createPlayList_playListCreated1&quot;/&gt;
+          &lt;include name=&quot;playListTests_renamePlaylist_playListRenamed1&quot;/&gt;
+          &lt;include name=&quot;playListTests_createPlayList_playListCreated2&quot;/&gt;
+          &lt;include name=&quot;playListTests_renamePlaylist_playListRenamed2&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- pageObjectTests.PlaylistTest --&gt;
+      &lt;class name=&quot;pageObjectTests.PlaylistTestA&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;playListTests_createPlayList_playListCreatedA&quot;/&gt;
+          &lt;include name=&quot;playListTests_renamePlaylist_playListRenamedA&quot;/&gt;
+          &lt;include name=&quot;playListTests_createPlayList_playListCreated1A&quot;/&gt;
+          &lt;include name=&quot;playListTests_renamePlaylist_playListRenamed1A&quot;/&gt;
+          &lt;include name=&quot;playListTests_createPlayList_playListCreated2A&quot;/&gt;
+          &lt;include name=&quot;playListTests_renamePlaylist_playListRenamed2A&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- pageObjectTests.PlaylistTestA --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ALLTests --&gt;
+&lt;/suite&gt; &lt;!-- MasterSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MasterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MasterSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ALLTests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MasterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MasterSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MasterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MasterSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MasterSuite');
+function tableData_MasterSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'playListTests_createPlayList_playListCreated')
+data.setCell(0, 2, 'pageObjectTests.PlaylistTest')
+data.setCell(0, 3, 5153);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTest_CorrectCredentials_successfulLogin1')
+data.setCell(1, 2, 'pageObjectTests.LoginTest')
+data.setCell(1, 3, 5086);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'playListTests_createPlayList_playListCreatedA')
+data.setCell(2, 2, 'pageObjectTests.PlaylistTestA')
+data.setCell(2, 3, 5082);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginTest_CorrectCredentials_successfulLogin2A')
+data.setCell(3, 2, 'pageObjectTests.LoginTestA')
+data.setCell(3, 3, 3545);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'playListTests_renamePlaylist_playListRenamedA')
+data.setCell(4, 2, 'pageObjectTests.PlaylistTestA')
+data.setCell(4, 3, 3532);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'playListTests_renamePlaylist_playListRenamed')
+data.setCell(5, 2, 'pageObjectTests.PlaylistTest')
+data.setCell(5, 3, 3528);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'playListTests_createPlayList_playListCreated1A')
+data.setCell(6, 2, 'pageObjectTests.PlaylistTestA')
+data.setCell(6, 3, 3389);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'playListTests_createPlayList_playListCreated1')
+data.setCell(7, 2, 'pageObjectTests.PlaylistTest')
+data.setCell(7, 3, 3307);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'playListTests_renamePlaylist_playListRenamed1A')
+data.setCell(8, 2, 'pageObjectTests.PlaylistTestA')
+data.setCell(8, 3, 3164);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginTest_CorrectCredentials_successfulLogin1A')
+data.setCell(9, 2, 'pageObjectTests.LoginTestA')
+data.setCell(9, 3, 3028);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'playListTests_renamePlaylist_playListRenamed1')
+data.setCell(10, 2, 'pageObjectTests.PlaylistTest')
+data.setCell(10, 3, 3021);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'playListTests_renamePlaylist_playListRenamed2A')
+data.setCell(11, 2, 'pageObjectTests.PlaylistTestA')
+data.setCell(11, 3, 2998);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'playListTests_renamePlaylist_playListRenamed2')
+data.setCell(12, 2, 'pageObjectTests.PlaylistTest')
+data.setCell(12, 3, 2968);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'playListTests_createPlayList_playListCreated2')
+data.setCell(13, 2, 'pageObjectTests.PlaylistTest')
+data.setCell(13, 3, 2761);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'playListTests_createPlayList_playListCreated2A')
+data.setCell(14, 2, 'pageObjectTests.PlaylistTestA')
+data.setCell(14, 3, 2759);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginTest_CorrectCredentials_successfulLogin2')
+data.setCell(15, 2, 'pageObjectTests.LoginTest')
+data.setCell(15, 3, 2722);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginTest_WrongCredentials_redFrameA')
+data.setCell(16, 2, 'pageObjectTests.LoginTestA')
+data.setCell(16, 3, 2264);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginTest_WrongCredentials_redFrame2')
+data.setCell(17, 2, 'pageObjectTests.LoginTest')
+data.setCell(17, 3, 1303);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginTest_WrongCredentials_redFrame2A')
+data.setCell(18, 2, 'pageObjectTests.LoginTestA')
+data.setCell(18, 3, 1277);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginTest_WrongCredentials_redFrame1')
+data.setCell(19, 2, 'pageObjectTests.LoginTest')
+data.setCell(19, 3, 1208);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginTest_WrongCredentials_redFrame1A')
+data.setCell(20, 2, 'pageObjectTests.LoginTestA')
+data.setCell(20, 3, 1119);
+window.suiteTableData['MasterSuite']= { tableData: data, tableDiv: 'times-div-MasterSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-MasterSuite">
+              </div> <!-- times-div-MasterSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MasterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MasterSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MasterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pageObjectTests.LoginTestA</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginTest_CorrectCredentials_successfulLoginA</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pageObjectTests.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loginTest_CorrectCredentials_successfulLogin</span>
+                <br/>
+                <span class="ignored-method-name">loginTest_WrongCredentials_redFrame</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MasterSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest_CorrectCredentials_successfulLogin1</span>
+                <span class="method-start">4795 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest_WrongCredentials_redFrameA</span>
+                <span class="method-start">4795 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">playListTests_createPlayList_playListCreated</span>
+                <span class="method-start">4795 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">playListTests_createPlayList_playListCreatedA</span>
+                <span class="method-start">4796 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7060 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9878 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9881 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9948 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">10129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest_CorrectCredentials_successfulLogin1A</span>
+                <span class="method-start">10504 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">12947 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">12976 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">13019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">playListTests_renamePlaylist_playListRenamed</span>
+                <span class="method-start">13481 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest_WrongCredentials_redFrame1</span>
+                <span class="method-start">13482 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">playListTests_renamePlaylist_playListRenamedA</span>
+                <span class="method-start">13489 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">13532 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14690 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">16599 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17009 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17021 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest_WrongCredentials_redFrame1A</span>
+                <span class="method-start">17078 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">17753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest_CorrectCredentials_successfulLogin2</span>
+                <span class="method-start">18039 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18197 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">20074 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">20093 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">playListTests_createPlayList_playListCreated1A</span>
+                <span class="method-start">20407 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">playListTests_createPlayList_playListCreated1</span>
+                <span class="method-start">20449 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20761 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">21258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest_CorrectCredentials_successfulLogin2A</span>
+                <span class="method-start">21511 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23757 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23796 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">23828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest_WrongCredentials_redFrame2</span>
+                <span class="method-start">24258 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25056 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25561 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">26816 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">26860 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">playListTests_renamePlaylist_playListRenamed1</span>
+                <span class="method-start">27116 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">playListTests_renamePlaylist_playListRenamed1A</span>
+                <span class="method-start">27198 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.LoginTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">28120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest_WrongCredentials_redFrame2A</span>
+                <span class="method-start">28507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29784 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30138 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30363 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">33201 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">33426 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">playListTests_createPlayList_playListCreated2</span>
+                <span class="method-start">33468 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">playListTests_createPlayList_playListCreated2A</span>
+                <span class="method-start">33711 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36229 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36470 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">39293 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(koeluser06@testpro.io, te$t$tudent, wrongPassword)</span>
+                <span class="method-start">39535 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">playListTests_renamePlaylist_playListRenamed2</span>
+                <span class="method-start">39560 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">playListTests_renamePlaylist_playListRenamed2A</span>
+                <span class="method-start">39805 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42528 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pageObjectTests.PlaylistTestA</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42803 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

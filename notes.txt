@@ -1,0 +1,20 @@
+1) Listeners to modify a feedback during a run
+2) RetryAnalyzer  to set a multiple runs for a specific test
+3) testng.xml to create a template and execute suites of tests
+4) parallel run to execute multiple tests at the same time (can be done in testng)
+5) parametrization -
+6) to create test reports: RUN -> Edit config -> Configuration -> Listeners -> use default reporter. That will create a new
+test out put folder. Use index.html to get a clean hmtl report.
+7) Junit reports are done in 6)
+8) WebdriverManager - we don't need to install chrome/gecko driver on a drive.
+9) maven surefire - will allow us to run a tests from a command line
+10) how to use github + terminal to run tests: get clone ... (paste repository from Git) -> go to repository cloned -> mvn clean test
+11) WHO USE LOGGER ???? private static Logger logger = LogManager.getLogger(MainPage.class);
+
+
+
+1 dependencies,
+hybrid framework,
+what to add to a fw: allure report, data generator,
+serialization/ deserialization.
+git ignore.

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MasterSuite" parallel="classes" thread-count="4">
+    <parameter name="email" value="koeluser06@testpro.io"/>
+    <parameter name="password" value="te$t$tudent"/>
+    <parameter name="wrongPassword" value="wrongPassword"/>
+    <test name="ALLTests">
+        <classes>
+            <class name="pageObjectTests.LoginTest">
+                <methods>
+                    <include name="loginTest_CorrectCredentials_successfulLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
