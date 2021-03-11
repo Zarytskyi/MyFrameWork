@@ -26,7 +26,7 @@ public class BaseTest {
     @Parameters({"email", "password", "wrongPassword"}) // we set this parameters in testNG
     // we could add browser for testNG chrome/firefox
 
-    @BeforeMethod
+    @BeforeMethod //
     public void startUp(String email, String password, String wrongPassword) { // String browser
         username = email;
         this.password = password;
